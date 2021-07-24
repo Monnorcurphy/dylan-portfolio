@@ -1,16 +1,19 @@
 import './App.css';
+import Navigation from './Navigation';
+import CenterContent from './CenterContent/centerContent';
+import Footer from './footer';
+import RightContent from './rightContent';
+import Header from './header';
+
 
 function App() {
   return (
     <div className="App">
-      <div>left aligned navigation</div>
-      <div> center aligned text</div>
-      <div>Big dot divider</div>
-      <div> center aligned video player</div>
-      <div>Big dot divider</div>
-      <div> center aligned CTA</div>
-      <div>Right aligned dylan face</div>
-      <div>bottom aligned links to dylan things</div>
+      <Header/>
+      <Navigation/>
+      <CenterContent/>
+      <RightContent/>
+      <Footer/>
     </div>
   );
 }
