@@ -9,7 +9,7 @@ import SixthDylan from './Assets/Dylan-6.jpg'
 
 function RightContent() {
   return (
-    <div>
+    <div className='picture-container'>
       <img className='dylan-picture' src={Dylan}/>
       <img className='dylan-picture' src={SecondDylan}/>
       <img className='dylan-picture' src={ThirdDylan}/>
