@@ -1,10 +1,15 @@
 import '../App.css';
+import Sample from '../Assets/sample.mp4'
 
 function Video() {
   return (
     <div className="center-flex">
-      <h1 id="sample">Sample Work</h1>
-      <p>This is where the video will go</p>
+      <video
+        src={Sample}
+        type="video"
+        controls
+        autoPlay
+      />
     </div>
   );
 }
