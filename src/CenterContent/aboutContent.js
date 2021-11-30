@@ -4,7 +4,7 @@ import Dylan from '../Assets/Dylan-2.jpg'
 function About() {
   return (
     <div className="center-flex">
-      <img src={Dylan} alt="An image of Dylan Young" className="dylan-hero-image" />
+      <img src={Dylan} alt="Dylan Young" className="dylan-hero-image" />
       <h1 id="about">About</h1>
       <p className="About-text">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque

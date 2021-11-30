@@ -24,7 +24,7 @@ function Footer() {
         >
           <FontAwesomeIcon
             icon={faInstagram}
-            alt="An image of the instagram logo"
+            alt="The instagram logo"
           />
         </a>
         <a
@@ -35,7 +35,7 @@ function Footer() {
         >
           <FontAwesomeIcon
             icon={faTwitter}
-            alt="An image of the Twitter logo"
+            alt="The Twitter logo"
           />
         </a>
         <a
