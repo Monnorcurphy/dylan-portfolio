@@ -183,11 +183,9 @@ html {
   line-height: 2.5em;
 }
 
-
 .nothing-sus-logo{
     max-width: 100px;
   }
-
 
 @media only screen and (max-width: 1200px) {
   .App {
